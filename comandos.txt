@@ -1,0 +1,10 @@
+1- cat anillo.txt | grep agujero
+2- cat anillo.txt | grep -i agujero
+3- cat anillo.txt | grep -w anillo
+4- cat anillo.txt | grep -vin anillo
+5- cat anillo.txt | grep ^Frodo
+6- cat anillo.txt | grep "Mordor."$
+7- cat anillo.txt | grep " .*ue "
+8- cat anillo.txt | grep -B2 -w "elfo"
+9- cat anillo.txt | grep -A1 -i "compañía"
+10- cat anillo.txt | grep "Gandalf" | grep "Gris"
